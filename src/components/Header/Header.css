@@ -1,27 +1,26 @@
 /* Estilo para o header */
 header {
-  background-image: linear-gradient(to bottom, 
-  #0a1f00f0,
-  #123200f0,
-  #1a4500f0,
-  #225800f0,
-  #2a6b00f0,
-  #327e00f0,
-  #3a9100f0,
-  #42a400f0,
-  #4ab700f0,
-  #4ab700f0,
-  #42a400f0,
-  #3a9100f0,
-  #327e00f0,
-  #2a6b00f0,
-  #225800f0,
-  #1a4500f0,
-  #123200f0,
-  #0a1f00f0
-);
-
-
+  background-image: linear-gradient(
+    to bottom,
+    #0a1f00f0,
+    #123200f0,
+    #1a4500f0,
+    #225800f0,
+    #2a6b00f0,
+    #327e00f0,
+    #3a9100f0,
+    #42a400f0,
+    #4ab700f0,
+    #4ab700f0,
+    #42a400f0,
+    #3a9100f0,
+    #327e00f0,
+    #2a6b00f0,
+    #225800f0,
+    #1a4500f0,
+    #123200f0,
+    #0a1f00f0
+  );
   color: #fff;
   padding: 20px 40px;
   width: 100%;
@@ -52,12 +51,14 @@ header {
 }
 
 .header-content .top-nav .left .logo-text {
-  font-size: 25px;
+  font-size: 25px; /* Tamanho da fonte da logo */
   font-weight: bold;
   color: #fff;
   text-decoration: none;
+  white-space: nowrap; /* Evita que o texto quebre em várias linhas */
+  overflow: hidden; /* Evita que o texto derrame do container */
+  text-overflow: ellipsis; /* Mostra um ponto de elipse (...) quando o texto estoura */
 }
-
 
 .header-content .top-nav .center {
   text-align: center;
