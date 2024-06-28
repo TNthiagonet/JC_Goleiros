@@ -22,7 +22,7 @@ const ButtonWhatsapp: React.FC = () => {
     }, 2000);
 
     setTimeout(() => {
-      window.open('https://wa.me/5583981790771', '_blank');
+      window.open('https://wa.me/5583987315844', '_blank');
     }, 2000);
   };
 
