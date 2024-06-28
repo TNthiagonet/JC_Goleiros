@@ -1,0 +1,80 @@
+/* Contact.css */
+
+/* Estilo principal da seção "Contact" */
+#contact {
+  padding: 100px 20px;
+  background-color: #0091ff00;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* Estilo do conteúdo central da seção "Contact" */
+.contact-content {
+  max-width: 800px;
+  background-color: #dff6fd00;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(30, 255, 0, 0.774);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Estilo do cabeçalho da seção "Contact" */
+.contact-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.contact-header h1 {
+  font-size: 3.5rem;
+  color: #ffffff;
+  text-shadow: -2px 2px 2px rgba(0, 0, 0, 0.712);
+}
+
+.contact-header p {
+  font-size: 1.5rem;
+  color: #ffffff;
+  text-shadow: -2px 2px 2px rgba(0, 0, 0, 0.712);
+  margin-bottom: 20px;
+}
+
+/* Estilo dos ícones de redes sociais e contatos */
+.contact-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.contact-icons .contact-icon {
+  margin: 0 10px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  color: #939e92; /* Cor padrão dos ícones */
+}
+
+.contact-icons .contact-icon:hover {
+  transform: scale(1.2);
+  color: #ffffff; /* Cor dos ícones ao passar o mouse */
+}
+
+/* Estilo para as animações de contato */
+.contact-animations {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.animation-item {
+  text-align: center;
+}
+
+.animation-item p {
+  font-size: 20px;
+  color: #ffffff;
+  text-shadow: -2px 2px 2px rgba(0, 0, 0, 0.712);
+}

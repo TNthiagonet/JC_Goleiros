@@ -1,0 +1,40 @@
+/* Home.css */
+
+.home-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 150px 20px;
+  margin-top: -50px;
+}
+
+.home-content {
+  max-width: 600px;
+  text-align: left;
+}
+
+.home-title {
+  font-size: 4rem;
+  margin-bottom: 20px;
+  color: #ffffff;
+  text-shadow: -2px 2px 2px rgb(0, 0, 0); /* Adiciona sombra leve */
+}
+
+.home-description {
+  font-size: 1.5rem;
+  line-height: 1.6;
+  color: #eff1f3;
+  text-shadow: -1px 1px 1px rgb(0, 0, 0); /* Adiciona sombra leve */
+}
+
+.animation-container {
+  width: 400%;
+  max-width: 45vw;
+  height: auto;
+}
+
+@media (min-width: 768px) {
+  .animation-container {
+    max-width: 400px;
+  }
+}

@@ -1,0 +1,45 @@
+/* Arquivo: src/components/Footer/Footer.css */
+
+.footer {
+  background-image: linear-gradient(to bottom, 
+  #0a1f00f0,
+  #123200f0,
+  #1a4500f0,
+  #225800f0,
+  #2a6b00f0,
+  #327e00f0,
+  #3a9100f0,
+  #42a400f0,
+  #4ab700f0,
+  #4ab700f0,
+  #42a400f0,
+  #3a9100f0,
+  #327e00f0,
+  #2a6b00f0,
+  #225800f0,
+  #1a4500f0,
+  #123200f0,
+  #0a1f00f0
+);
+
+  color: #fff;
+  text-align: center;
+  padding: 10px 2;
+  position: fixed;
+  bottom: -50px; /* Inicialmente fora da tela */
+  width: 100%;
+  transition: bottom 0.3s ease; /* Transição suave para animar o aparecimento */
+}
+
+.footer.visible {
+  bottom: 0; /* Mostra o footer quando chegar ao fim da página */
+}
+
+.footer a {
+  text-decoration: none; /* Remove o sublinhado dos links dentro do footer */
+}
+
+.footer a.thiagonet {
+  color: #fff; /* Cor branca para o texto */
+  font-weight: bold; /* Texto em negrito */
+}

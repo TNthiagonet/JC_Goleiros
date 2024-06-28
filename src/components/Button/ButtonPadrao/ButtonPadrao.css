@@ -1,0 +1,37 @@
+/* ButtonPadrao.css */
+
+.button-padrao {
+  padding: 12px 24px;
+  font-size: 1rem;
+  border: none;
+  background: linear-gradient(1deg, 
+  #0a1f00f0,
+  #123200f0,
+  #1a4500f0,
+  #225800f0,
+  #2a6b00f0,
+  #327e00f0,
+  #3a9100f0,
+  #42a400f0,
+  #4ab700f0,
+  #4ab700f0,
+  #42a400f0,
+  #3a9100f0,
+  #327e00f0,
+  #2a6b00f0,
+  #225800f0,
+  #1a4500f0,
+  #123200f0,
+  #0a1f00f0);
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease, filter 0.2s ease; /* Transições para efeito hover */
+  border-radius: 10px; /* Borda arredondada */
+  overflow: hidden; /* Oculta o overflow para aplicar o efeito de brilho e contraste */
+}
+
+.button-padrao:hover {
+  transform: scale(1.05); /* Efeito de escala para criar o brilho */
+  filter: brightness(1.2) contrast(1.2); /* Ajusta brilho e contraste */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Sombra sutil */
+}

@@ -1,0 +1,79 @@
+/* About.css */
+
+/* Estilo principal da seção "Sobre" */
+.about-section {
+  display: flex; /* Define o layout flexível */
+  justify-content: space-around; /* Distribui os itens com espaço ao redor */
+  align-items: center; /* Alinha os itens ao centro verticalmente */
+  padding: 150px 20px; /* Define o preenchimento da seção */
+  margin-top: -50px; /* Define a margem superior negativa */
+}
+
+/* Estilo para o conteúdo da seção "Sobre" */
+.about-content {
+  max-width: 600px; /* Define a largura máxima */
+  text-align: right; /* Alinha o texto à direita */
+}
+
+/* Estilo para o título da seção "Sobre" */
+.about-title {
+  margin-top: 0px;
+  font-size: 4rem; /* Define o tamanho da fonte */
+  margin-bottom: 20px; /* Define a margem inferior */
+  color: #ffffff; /* Define a cor do texto */
+  text-shadow: -2px 2px 2px rgb(0, 0, 0); /* Adiciona sombra leve */
+  text-align: left; /* Alinha o texto à esquerda */
+}
+
+
+/* Estilo para a descrição principal */
+.about-description {
+  font-size: 1.5rem; /* Define o tamanho da fonte */
+  line-height: 1.6; /* Define a altura da linha */
+  color: #ffffff; /* Define a cor do texto */
+  margin-bottom: 20px; /* Define a margem inferior */
+  text-align: justify; /* Justifica o texto */
+  text-shadow: -1px 1px 1px rgb(0, 0, 0); /* Adiciona sombra leve */
+}
+
+/* Estilo para a descrição secundária */
+.about-description2 {
+  font-size: 1rem; /* Define o tamanho da fonte */
+  line-height: 1.6; /* Define a altura da linha */
+  color: #ffffff; /* Define a cor do texto */
+  margin-bottom: 20px; /* Define a margem inferior */
+  text-align: justify; /* Justifica o texto */
+  text-shadow: -1px 1px 1px rgb(0, 0, 0); /* Adiciona sombra leve */
+}
+
+/* Estilo para o contêiner da animação */
+.about-animation-container {
+  width: 30%; /* Define a largura em 50% */
+  max-width: 17.5vw; /* Define a largura máxima em 17.5vw (metade de 35vw) */
+  height: auto; /* Define a altura automática */
+}
+
+/* Media queries para dispositivos menores */
+@media (max-width: 768px) {
+  /* Ajuste da seção "Sobre" para dispositivos menores */
+  .about-section {
+    flex-direction: column; /* Muda a direção do flex para coluna */
+    align-items: flex-start; /* Alinha os itens à esquerda */
+  }
+
+  /* Ajuste do contêiner da animação para dispositivos menores */
+  .about-animation-container {
+    max-width: 20%; /* Define a largura máxima em 40% (metade de 80%) */
+    margin-bottom: 20px; /* Define a margem inferior */
+  }
+
+  /* Ajuste do conteúdo da seção "Sobre" para dispositivos menores */
+  .about-content {
+    text-align: left; /* Alinha o texto à esquerda */
+  }
+
+  /* Ajuste do título da seção "Sobre" para dispositivos menores */
+  .about-title, .about-description, .about-description2 {
+    text-align: left; /* Alinha o texto à esquerda */
+  }
+}
