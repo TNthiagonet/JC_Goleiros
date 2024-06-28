@@ -1,8 +1,11 @@
-// Header.tsx
-
 import React, { useState } from 'react';
 import './Header.css';
 import MobileMenu from '../MobileMenu/MobileMenu';
+import Lottie from 'lottie-react'; // Importa Lottie para integrar animações JSON
+
+// Importe a animação JSON desejada (substitua 'animationMenuOpen.json' pelo seu arquivo JSON)
+import animationMenuOpen from '../../Animations/MenuOpen.json';
+import animationMenuClose from '../../Animations/MenuClose.json';
 
 const Header: React.FC = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -33,7 +36,11 @@ const Header: React.FC = () => {
               <li><a href="#contact" onClick={closeMenu}>Contato</a></li>
             </ul>
             <div className="hamburger-menu" onClick={toggleMenu}>
-              {mobileMenuOpen ? '✕' : '☰'}
+              {/* Substitui '✕' e '☰' por animações JSON */}
+              <Lottie
+                animationData={mobileMenuOpen ? animationMenuClose : animationMenuOpen}
+                style={{ width: '40px', height: '40px' }} // Ajuste o tamanho conforme necessário
+              />
             </div>
           </div>
         </nav>

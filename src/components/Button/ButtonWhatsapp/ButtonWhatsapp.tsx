@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Lottie from 'lottie-react';
 import whatsappAnimation from '../../../Animations/Whatsapp.json';
-import whatsappTnAnimation from '../../../Animations/Escanteio.json';
+import whatsappTnAnimation from '../../../Animations/WhatsappTN.json';
 import './ButtonWhatsapp.css'; // Importe o arquivo CSS
 
 interface AnimationData {
