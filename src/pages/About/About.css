@@ -48,9 +48,10 @@
 
 /* Estilo para o contêiner da animação */
 .about-animation-container {
-  width: 30%; /* Define a largura em 50% */
-  max-width: 17.5vw; /* Define a largura máxima em 17.5vw (metade de 35vw) */
+  width: 30%; /* Define a largura em 30% */
+  max-width: 220px; /* Define a largura máxima em pixels */
   height: auto; /* Define a altura automática */
+  margin-right: 20px; /* Margem à direita para espaçamento */
 }
 
 /* Media queries para dispositivos menores */
@@ -58,22 +59,35 @@
   /* Ajuste da seção "Sobre" para dispositivos menores */
   .about-section {
     flex-direction: column; /* Muda a direção do flex para coluna */
-    align-items: flex-start; /* Alinha os itens à esquerda */
+    align-items: center; /* Alinha os itens ao centro */
   }
 
   /* Ajuste do contêiner da animação para dispositivos menores */
   .about-animation-container {
-    max-width: 40%; /* Define a largura máxima em 40% (metade de 80%) */
+    width: 40%; /* Define a largura em 50% */
+    max-width: 80%; /* Define a largura máxima em 80% da largura da tela */
     margin-bottom: 40px; /* Define a margem inferior */
   }
 
   /* Ajuste do conteúdo da seção "Sobre" para dispositivos menores */
   .about-content {
     text-align: left; /* Alinha o texto à esquerda */
+    max-width: 80%; /* Define a largura máxima em 80% da largura da tela */
+    margin-bottom: 30px; /* Define a margem inferior */
   }
 
   /* Ajuste do título da seção "Sobre" para dispositivos menores */
-  .about-title, .about-description, .about-description2 {
-    text-align: left; /* Alinha o texto à esquerda */
+  .about-title {
+    font-size: 3rem; /* Reduz o tamanho da fonte */
+  }
+
+  /* Ajuste da descrição principal para dispositivos menores */
+  .about-description {
+    font-size: 1.2rem; /* Reduz o tamanho da fonte */
+  }
+
+  /* Ajuste da descrição secundária para dispositivos menores */
+  .about-description2 {
+    font-size: 0.9rem; /* Reduz o tamanho da fonte */
   }
 }

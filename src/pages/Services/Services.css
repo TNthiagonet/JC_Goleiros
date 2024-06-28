@@ -20,8 +20,8 @@
 }
 
 .services-header p {
-  margin-left: 50%;
-  margin-right: 50%;
+  margin-left: auto;
+  margin-right: auto;
   font-size: 1.5rem; /* Aumenta o tamanho da fonte */
   color: #eff1f3; /* Define a cor do texto */
   margin-bottom: 20px; /* Define a margem inferior */
@@ -56,9 +56,13 @@
   gap: 2rem; /* Espaçamento entre os cards */
 }
 
-/* Responsividade para tablets */
+/* Responsividade para tablets e dispositivos menores */
 @media (max-width: 768px) {
   .services-animation-container {
-    max-width: 50%; /* Define a largura máxima para 50% */
+    max-width: 80%; /* Define a largura máxima para 80% */
+  }
+
+  .services-header p, .services-header-p {
+    font-size: 1.2rem; /* Reduz o tamanho da fonte */
   }
 }

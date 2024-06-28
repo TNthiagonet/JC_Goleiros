@@ -14,7 +14,10 @@ const Services: React.FC = () => {
       </div>
       <div className="services-header-p">
         <p>
-        Nossos serviços são projetados para oferecer treinamento completo e personalizado para goleiros de todas as idades e níveis de habilidade. Oferecemos sessões individuais, clínicas de grupo, análise de vídeo, preparação física e mental, tudo adaptado às necessidades específicas de cada goleiro.
+        Nossos serviços são projetados para oferecer treinamento completo <br /> 
+        e personalizado para goleiros de todas as idades e níveis de habilidade. <br />
+        Oferecemos sessões individuais, trabalho em grupo, análise de vídeo, <br />
+        preparação física e mental, tudo adaptado às necessidades de cada goleiro.
         </p>
       </div>
     </section>

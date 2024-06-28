@@ -33,6 +33,27 @@
   height: auto;
 }
 
+/* Media query para dispositivos menores */
+@media (max-width: 768px) {
+  .home-title {
+    font-size: 3.2rem; /* Reduz o tamanho da fonte em 30% */
+  }
+
+  .home-description {
+    font-size: 1.05rem; /* Reduz o tamanho da fonte em 30% */
+  }
+}
+
+@media (max-width: 480px) {
+  .home-title {
+    font-size: 2.8rem; /* Exemplo de redução adicional para dispositivos muito pequenos */
+  }
+
+  .home-description {
+    font-size: 1rem; /* Exemplo de redução adicional para dispositivos muito pequenos */
+  }
+}
+
 @media (min-width: 768px) {
   .animation-container {
     max-width: 400px;
