@@ -63,8 +63,8 @@
 
   /* Ajuste do contêiner da animação para dispositivos menores */
   .about-animation-container {
-    max-width: 20%; /* Define a largura máxima em 40% (metade de 80%) */
-    margin-bottom: 20px; /* Define a margem inferior */
+    max-width: 40%; /* Define a largura máxima em 40% (metade de 80%) */
+    margin-bottom: 40px; /* Define a margem inferior */
   }
 
   /* Ajuste do conteúdo da seção "Sobre" para dispositivos menores */

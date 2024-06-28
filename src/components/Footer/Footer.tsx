@@ -26,7 +26,7 @@ const Footer: React.FC = () => {
   return (
     <footer className={`footer ${isVisible ? 'visible' : ''}`}>
       <div className="container">
-        <p>&copy; {currentYear} | <a href="https://thiagonet.com" className="thiagonet">ThiagoNET</a> | todos os direitos reservados.</p>
+        <p>&copy; {currentYear} <a className="thiagonet">JC Goleiros | </a>developer<a href="https://thiagonet.com" className="thiagonet"> thiagonet.com</a> </p>
       </div>
     </footer>
   );
