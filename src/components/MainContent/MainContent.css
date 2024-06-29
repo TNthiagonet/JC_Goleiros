@@ -3,27 +3,17 @@ body {
   margin: 0;
   padding: 0;
   background-image: linear-gradient(to bottom, 
-  #164520e0,
-  #1e5a2be0,
-  #276f36e0,
-  #318240e0,
-  #3b924ae0,
-  #459254e0,
-  #4b9c5ee0,
-  #57a568e0,
-  #63af72e0,
-  #63af72e0,
-  #57a568e0,
-  #4b9c5ee0,
-  #459254e0,
-  #3b924ae0,
-  #318240e0,
-  #276f36e0,
-  #1e5a2be0,
-  #164520e0
-);
-
-
+    #000b17,
+    #00152b,
+    #001f41,
+    #002856,
+    #00326c,
+    #00326c,
+    #002856,
+    #001f41,
+    #00152b,
+    #000b17
+  );
   box-sizing: border-box;
   display: flex;
   min-height: 100vh;
@@ -46,8 +36,7 @@ section {
 
 @media (max-width: 768px) {
   main {
-      margin-left: 0;
-      margin-right: 0;
+    margin-left: 0;
+    margin-right: 0;
   }
 }
-

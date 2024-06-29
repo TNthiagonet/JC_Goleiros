@@ -4,6 +4,7 @@ import MobileMenu from '../MobileMenu/MobileMenu';
 import Lottie from 'lottie-react';
 import animationMenuOpen from '../../Animations/MenuOpen.json';
 import menuOpenSound from '../../Sounds/menu-open.mp3';
+import logoImage from '../../img/JC.png'; // Importe a imagem aqui
 
 const Header: React.FC = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -41,7 +42,10 @@ const Header: React.FC = () => {
       <div className="header-content">
         <nav className="top-nav">
           <div className="left">
-            <a href="#" className="logo-text">JC Goleiros</a>
+            <a href="#" className="logo-text">
+              <img src={logoImage} alt="JC Goleiros Logo" className="logo-image" />
+              JC Goleiros
+            </a>
           </div>
           <div className="center">
             {/* Conteúdo centralizado, se necessário */}
