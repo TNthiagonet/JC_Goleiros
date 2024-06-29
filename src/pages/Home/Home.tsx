@@ -3,7 +3,7 @@
 import React from 'react';
 import './Home.css';
 import Lottie from 'lottie-react';
-import animationData from '../../Animations/Jogadores.json'; // Ajuste o caminho conforme necessário
+import animationData from '../../Animations/Home.json'; // Ajuste o caminho conforme necessário
 import ButtonPadrao from '../../components/Button/ButtonPadrao/ButtonPadrao'; // Importando o componente ButtonPadrao
 import menuOpenSound from '../../Sounds/menu-open.mp3'; // Importando o som
 

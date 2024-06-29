@@ -5,7 +5,7 @@ import './Contact.css';
 import { FaFacebook, FaTwitter, FaInstagram, FaPhoneAlt } from 'react-icons/fa';
 import { MdEmail } from 'react-icons/md';
 import Lottie from 'lottie-react';
-import animationData from '../../Animations/AnimationMail.json';
+import animationData from '../../Animations/Email.json';
 
 const Contact: React.FC = () => {
   const handleEmailClick = () => {

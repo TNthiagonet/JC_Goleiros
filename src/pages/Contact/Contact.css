@@ -16,7 +16,7 @@
   background-color: #dff6fd00;
   padding: 40px;
   border-radius: 8px;
-  box-shadow: 0 0 20px rgba(30, 255, 0, 0.774);
+  box-shadow: 0 0 20px #0BCB9B;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -58,7 +58,7 @@
 
 .contact-icons .contact-icon:hover {
   transform: scale(1.2);
-  color: #ffffff; /* Cor dos ícones ao passar o mouse */
+  color: #0BCB9B; /* Cor dos ícones ao passar o mouse */
 }
 
 /* Estilo para as animações de contato */
